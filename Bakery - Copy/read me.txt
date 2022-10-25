@@ -1,9 +1,9 @@
 dotnet new razor
 dotnet run
 dotnet new page --name About --namespace Bakery.Pages --output Pages
-
 dotnet add package Microsoft.EntityFrameworkCore.Design 
 dotnet ef migrations add CreateDatabase --output-dir Data/Migrations
 dotnet ef database update
 
-dotnet new page --name Order --namespace Bakery.Pages --output Pages
+npm install sqlite3
+npm un sqlite3
